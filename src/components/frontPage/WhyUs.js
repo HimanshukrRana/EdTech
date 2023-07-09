@@ -7,12 +7,14 @@ export default function WhyUs() {
       <div className="container mx-auto">
         <div className="flex  flex-col-reverse lg:flex-row-reverse gap-12">
           <div className="p-4 md:p-0 lg:w-[60%]">
-            <p className="  uppercase">Why Choose Us</p>
-            <h4 className="mt-2 title font-semibold leading-8 text-gray-600  sm:text-3xl sm:leading-9">
+            <p className="text-base font-semibold leading-6 text-indigo-500 uppercase">
+              Why Choose Us
+            </p>
+            <h4 className="mt-2 text-2xl font-extrabold leading-8 text-gray-900 dark:text-white sm:text-3xl sm:leading-9">
               Enhance your skills and expertise by choosing from a comprehensive
               range of courses available in different categories.
             </h4>
-            <p className="mt-4 text-lg leading-6 text-gray-400 ">
+            <p className="mt-4 text-lg leading-6 text-gray-500 dark:text-gray-300">
               Build a simply and powered collaborative course for all the
               students. Track, share, measure, you have a fully control,
               it&#x27;s never be simply and efficient.
@@ -102,23 +104,23 @@ export default function WhyUs() {
           </div>
           <div className="">
             <div className=" space-y-4">
-              <div className=" space-x-4 ">
-                {/* <Image
-                  className="w-32 rounded-lg  md:w-56"
+              <div className="flex justify-center space-x-4 ">
+                <Image
+                  className="w-32 rounded-lg shadow-lg md:w-56"
                   width={200}
                   height={230}
                   src="/images/w1.jpeg"
                   alt="1"
-                /> */}
+                />
                 <Image
-                  className="w-auto h-auto"
-                  width={360}
-                  height={360}
+                  className="w-40 rounded-lg shadow-lg md:w-64"
+                  width={260}
+                  height={260}
                   src="/images/w3.jpeg"
                   alt="2"
                 />
               </div>
-              {/* <div className="flex items-start justify-center ml-12 space-x-4 lg:justify-start">
+              <div className="flex items-start justify-center ml-12 space-x-4 lg:justify-start">
                 <Image
                   className="w-24 rounded-lg shadow-lg md:w-40"
                   width={170}
@@ -133,7 +135,7 @@ export default function WhyUs() {
                   src="/images/img3.jpg"
                   alt="4"
                 />
-              </div> */}
+              </div>
             </div>
           </div>
         </div>
