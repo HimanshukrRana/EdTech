@@ -1,0 +1,64 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.title {
+  @apply font-bold text-[26px]  leading-[35px] text-[#111];
+}
+
+.bg-btn {
+  @apply bg-gradient-to-r from-[#FB6837]  to-[#CC14B5];
+}
+
+.bg-btn-ad:hover {
+  @apply bg-gradient-to-r from-[#5E68EA]  to-[#9135E0];
+}
+
+.parallax {
+  /* The image used */
+  background-image: url("../public/images/worldmap.png");
+
+  /* Full height */
+  height: 100%;
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.layout {
+  /* max-width: 1440px;
+  margin: auto; */
+  padding-left: 50px;
+  padding-right: 50px;
+}
+
+.dropdown:hover .dropdown-menu {
+  display: block;
+}
+
+.wdropdown:hover .wdropdown-menu {
+  display: block;
+}
+
+.pdropdown:hover .pdropdown-menu {
+  display: block;
+}
+
+.allwidth {
+  width: 70%;
+  max-width: 70%;
+}
+
+.ribbon {
+  height: 43px;
+  background-color: #504abb;
+  background-image: none;
+  background-image: linear-gradient(214deg, #5752bb 0%, #4f49bb 100%);
+  clip-path: polygon(100% 0, 97% 50%, 100% 100%, 0% 100%, 3% 50%, 0% 0%);
+
+  width: 450px;
+}
+
